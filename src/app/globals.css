@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@theme {
+  --color-light-purple: #a59af5;
+  --color-deep-mauve: #6e365e;
+  --color-grey-blue: #4f7580;
+  --color-muted-green: #5f8774;
+
+  --font-courier: "Courier", courier;
+}
