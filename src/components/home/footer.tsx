@@ -7,7 +7,9 @@ function Footer() {
       <p className="col-span-2 text-5xl font-bold">hello@conor.io</p>
       <div className="flex flex-row gap-3 text-sm">
         {socials.map(({ name, link }, index) => (
-          <Link href={link} key={index}>{name}</Link>
+          <Link href={link} key={index}>
+            {name}
+          </Link>
         ))}
       </div>
       <div className="flex flex-row gap-3 text-sm font-bold">
