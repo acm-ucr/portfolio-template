@@ -1,5 +1,5 @@
 import Example from "@/components/home/example";
-import Footer from "@/components/home/footer"
+import Footer from "@/components/home/footer";
 
 const Home = () => {
   return (
