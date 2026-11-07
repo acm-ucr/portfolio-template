@@ -1,4 +1,5 @@
 import Image from "next/image";
+import aboutImage from "@/public/about/about.webp";
 
 const AboutUs = () => {
   return (
@@ -22,7 +23,7 @@ const AboutUs = () => {
 
       <div className="w-1/2">
         <Image
-          src="/about/about.webp"
+          src={aboutImage}
           alt="image"
           width={600}
           height={700}
