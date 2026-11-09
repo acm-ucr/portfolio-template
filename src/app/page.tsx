@@ -8,4 +8,4 @@ const Home = () => {
   );
 };
 
-export default Home;git status
+export default Home;
