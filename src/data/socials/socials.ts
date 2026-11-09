@@ -1,7 +1,7 @@
 const socials = [
   {
     name: "Dribbble",
-    href: "https://dribbbles.com",
+    href: "https://dribbble.com",
   },
   {
     name: "Behance",
