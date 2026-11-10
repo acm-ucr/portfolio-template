@@ -1,11 +1,7 @@
-import Example from "@/components/home/example";
+import HomePage from "@/components/Home";
 
 const Home = () => {
-  return (
-    <div className="flex h-screen w-screen items-center justify-center">
-      <Example text1="Some" text2="Props" text3="Here" />
-    </div>
-  );
+  return <HomePage />;
 };
 
 export default Home;
