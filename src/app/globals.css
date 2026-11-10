@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme {
+  --color-portfolio-blue-700: #282828;
+  --color-portfolio-cream-100: #fff0e3;
+}
