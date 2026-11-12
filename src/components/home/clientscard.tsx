@@ -3,23 +3,23 @@ import { clients } from "../../data/home/clients";
 
 const ClientsCard = () => {
   return (
-    <section className="mx-auto flex w-full max-w-4xl rounded-2xl border border-gray-300 bg-gray-50 text-gray-900">
-      <div className="w-2/5 border-r border-gray-300 p-8">
-        <p className="text-sm">Clients</p>
+    <div className="mx-auto flex min-h-80 w-full max-w-6xl rounded-2xl border border-gray-400 bg-gray-50 text-gray-900">
+      <div className="flex w-2/5 flex-col justify-center border-r border-gray-400 p-16">
+        <p className="text-sm font-bold">Clients</p>
         <h2 className="mt-2 text-2xl font-bold">
           Focused to create a thoughtful and unique visual craft for brands
         </h2>
       </div>
       <div className="flex w-3/5 items-center justify-center p-8">
-        <div className="flex w-96 flex-wrap justify-center gap-6">
+        <div className="flex w-96 flex-wrap justify-center gap-x-6 gap-y-12">
           {clients.map(({ name, logo }) => (
             <div key={name} className="flex w-28 items-center justify-center">
-              <Image src={logo} alt={name} className="h-6 w-auto grayscale" />
+              <Image src={logo} alt={name} className="h-8 w-auto grayscale" />
             </div>
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
