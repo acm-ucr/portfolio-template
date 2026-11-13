@@ -16,7 +16,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="relative flex items-center justify-between bg-[#252525] p-5 text-white">
+    <div className="relative flex items-center justify-between bg-[#252525] p-5 text-white">
       <Link href="/">
         <Image
           src="/navbar_logo.webp"
@@ -36,7 +36,7 @@ const Navbar = () => {
       </button>
 
       {isOpen && (
-        <ul className="absolute top-full right-0 z-10 w-40 list-disc rounded-lg bg-[#252525] p-5 pl-8 text-white shadow-lg">
+        <ul className="absolute top-full right-0 z-10 w-48 rounded-lg bg-[#252525] p-6 text-center text-xl text-white shadow-lg">
           {links.map(({ name, href }) => (
             <li key={name}>
               <Link href={href} onClick={() => setIsOpen(false)}>
@@ -46,7 +46,7 @@ const Navbar = () => {
           ))}
         </ul>
       )}
-    </nav>
+    </div>
   );
 };
 
