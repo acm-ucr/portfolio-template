@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme {
+  --color-contact-bg: #252525;
+  --color-contact-text: #F5F0E8;
+}
