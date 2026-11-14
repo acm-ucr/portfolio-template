@@ -1,14 +1,13 @@
-
 import Link from "next/link";
 import { Link as LinkIcon } from "lucide-react";
 import socials from "@/data/socials/socials";
 
 const ContactHeader = () => {
   return (
-<div className="min-h-screen bg-contact-bg px-12 py-24 text-contact-text">
+    <div className="bg-contact-bg text-contact-text min-h-screen px-12 py-24">
       <h1 className="mb-6 text-7xl font-bold">Contact</h1>
 
-      <p className="mb-7 max-w-4xl text-2xl font-semibold leading-relaxed">
+      <p className="mb-7 max-w-4xl text-2xl leading-relaxed font-semibold">
         I believe that good design can make a real difference in the world — It
         can help businesses attract new customers, build stronger relationships,
         and create a more positive brand image.
