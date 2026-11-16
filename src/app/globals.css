@@ -15,4 +15,8 @@
 @theme {
   --color-charcoal: #282828;
   --color-cream: #fff0e3;
+  --color-contact-bg: #252525;
+  --color-contact-text: #f5f0e8;
+  --color-services-orange: #ffa45f;
+  --color-services-text: #252525;
 }
