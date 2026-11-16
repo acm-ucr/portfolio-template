@@ -11,3 +11,8 @@
 .color3 {
   background-color: powderblue;
 }
+
+@theme {
+  --color-charcoal: #282828;
+  --color-cream: #fff0e3;
+}
