@@ -19,7 +19,7 @@ const ProjectCard = (props: {
         />
       </div>
       <div className="absolute z-20 mt-107 ml-6 flex w-[93.75%] rounded-xl bg-white p-10">
-        <p className="font-inter -translate-y-5 -translate-x-4.5 text-xl font-bold">
+        <p className="font-inter -translate-x-4.5 -translate-y-5 text-xl font-bold">
           {props.title}
         </p>
       </div>
