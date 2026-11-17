@@ -13,7 +13,7 @@
 
 ## Figma
 
-(TBA)
+[Portafolio Template Figma](https://www.figma.com/design/PeScIxh5VkfWz8H9Zx72GS/Orbe---Portfolio-Template--Preview-?node-id=2340-323273&p=f&t=r5ve3UsFCXmFSWh4-0)
 
 ## Node.js
 
