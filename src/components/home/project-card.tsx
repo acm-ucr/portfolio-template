@@ -28,7 +28,7 @@ const ProjectCard = (props: {
         <div className="absolute mt-2 -ml-2.5 translate-y-55 rounded-full border-1 border-black p-5"></div>
         <Image
           className="translate-y-60"
-          src="/arrow.png"
+          src="/arrow.webp"
           alt={props.title}
           width={20}
           height={50}
